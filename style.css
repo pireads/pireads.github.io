@@ -2,3 +2,17 @@ body {
     background-color: #36393F;
     color: #fff;
 }
+
+a:link {
+    color: #83C8F5;
+}
+
+a:visited {
+    color: #F2588A;
+}
+
+a:hover {
+    color: #93DEFC;
+}
+
+

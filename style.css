@@ -66,7 +66,8 @@ a:link {
 }
 
 a:visited {
-  color: #F2588A;
+  /* color: #F2588A; */
+  color: #83C8F5;
   -webkit-animation-name: linkback;
   -webkit-animation-duration: 0.2s;
   -webkit-animation-fill-mode: forwards;
@@ -74,7 +75,8 @@ a:visited {
 }
 
 a:hover {
-  color: #93DEFC;
+  /* color: #93DEFC; */
+  color: #83C8F5;
   -webkit-animation-name: link;
   -webkit-animation-duration: 0.2s;
   -webkit-animation-fill-mode: forwards;

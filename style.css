@@ -48,6 +48,7 @@ body {
 }
 
 h1 {
+  font-size: 100px;
   font-family: 'Decovar';
   -webkit-animation-name: head;
   -webkit-animation-duration: 2s;
@@ -56,6 +57,7 @@ h1 {
 }
 
 a:link {
+  font-size: 50px;
   color: #83C8F5;
   -webkit-animation-name: linkback;
   -webkit-animation-duration: 0.2s;

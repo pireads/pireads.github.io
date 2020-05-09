@@ -3,7 +3,27 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'Fira Code', monospace;
+    
+/*     font-variation-settings: 'wght' 900; */
 }
+
+@-webkit-keyframes head {
+    from {
+        font-variation-settings: 'wght' 300;
+      }
+      to {
+        font-variation-settings: 'wght' 699;
+      }
+}
+
+h1 {
+    -webkit-animation-name:head;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: 1;
+}
+
+
+
 
 a:link {
     color: #83C8F5;

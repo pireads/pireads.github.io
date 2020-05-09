@@ -1,77 +1,80 @@
 @font-face {
-    font-family: 'Decovar';
-    src: url(decovar/DecovarAlpha-VF.ttf) format('truetype');
+  font-family: 'Decovar';
+  src: url(decovar/DecovarAlpha-VF.ttf) format('truetype');
 }
 
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: 'Decovar';
+  background-color: #000;
+  color: #fff;
+  font-family: 'Decovar';
 }
 
 @-webkit-keyframes head {
-      0% {
-        font-variation-settings: 'SKLD' 1000;
-      }
-      49% {
-        font-variation-settings: 'SKLD' 0;
-      }
-      50% {
-        font-variation-settings: 'TRMD' 0;
-      }
-      100% {
-        font-variation-settings: 'TRMD' 1000;
-      }
+  0% {
+    font-variation-settings: 'SKLD'1000;
+  }
+
+  49% {
+    font-variation-settings: 'SKLD'0;
+  }
+
+  50% {
+    font-variation-settings: 'TRMD'0;
+  }
+
+  100% {
+    font-variation-settings: 'TRMD'1000;
+  }
 }
 
 @-webkit-keyframes link {
-    from {
-        font-variation-settings: 'TRMG' 0;
-    }
-    to {
-        font-variation-settings: 'TRMG' 1000;
-    }
+  from {
+    font-variation-settings: 'TRMG'0;
+  }
+
+  to {
+    font-variation-settings: 'TRMG'1000;
+  }
 }
 
 @-webkit-keyframes linkback {
-    from {
-        font-variation-settings: 'TRMG' 1000;
-    }
-    to {
-        font-variation-settings: 'TRMG' 0;
-    }
+  from {
+    font-variation-settings: 'TRMG'1000;
+  }
+
+  to {
+    font-variation-settings: 'TRMG'0;
+  }
 }
 
 h1 {
-    font-family: 'Decovar';
-    -webkit-animation-name:head;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: 1;
+  font-family: 'Decovar';
+  -webkit-animation-name: head;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
 }
 
 a:link {
-    color: #83C8F5;
-    -webkit-animation-name: linkback;
-    -webkit-animation-duration: 0.2s;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: 1;
+  color: #83C8F5;
+  -webkit-animation-name: linkback;
+  -webkit-animation-duration: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
 }
 
 a:visited {
-    color: #F2588A;
-    -webkit-animation-name: linkback;
-    -webkit-animation-duration: 0.2s;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: 1;
+  color: #F2588A;
+  -webkit-animation-name: linkback;
+  -webkit-animation-duration: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
 }
 
 a:hover {
-    color: #93DEFC;
-    -webkit-animation-name: link;
-    -webkit-animation-duration: 0.2s;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: 1;
+  color: #93DEFC;
+  -webkit-animation-name: link;
+  -webkit-animation-duration: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
 }
-
-

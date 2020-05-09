@@ -3,12 +3,6 @@
   src: url(decovar/DecovarAlpha-VF.ttf) format('truetype');
 }
 
-body {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Decovar';
-}
-
 @-webkit-keyframes head {
   0% {
     font-variation-settings: 'SKLD'1000;
@@ -45,6 +39,12 @@ body {
   to {
     font-variation-settings: 'TRMG'0;
   }
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Decovar';
 }
 
 h1 {

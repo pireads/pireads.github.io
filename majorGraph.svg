@@ -12,19 +12,19 @@
 <g id="clust1" class="cluster">
 <title>cluster</title>
 <polygon fill="#2c3e50" stroke="#000000" points="8,-8 8,-756.5 112,-756.5 112,-8 8,-8"/>
-<text text-anchor="middle" x="60" y="-741.3" font-family="Fira Mono" font-size="14.00" fill="#ecf0f1">Semester Key</text>
+<text text-anchor="middle" x="60" y="-741.3" font-family="Sans-Serif" font-size="14.00" fill="#ecf0f1">Semester Key</text>
 </g>
 <!-- 0 -->
 <g id="node1" class="node">
 <title>0</title>
 <polygon fill="#bdc3c7" stroke="#bdc3c7" points="86,-725.5 32,-725.5 32,-689.5 86,-689.5 86,-725.5"/>
-<text text-anchor="middle" x="59" y="-703.8" font-family="Fira Mono" font-size="14.00" fill="#000000">0</text>
+<text text-anchor="middle" x="59" y="-703.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">0</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node">
 <title>1</title>
 <polygon fill="#c0392b" stroke="#c0392b" points="86,-636.5 32,-636.5 32,-600.5 86,-600.5 86,-636.5"/>
-<text text-anchor="middle" x="59" y="-614.8" font-family="Fira Mono" font-size="14.00" fill="#000000">1</text>
+<text text-anchor="middle" x="59" y="-614.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">1</text>
 </g>
 <!-- 0&#45;&gt;1 -->
 <g id="edge1" class="edge">
@@ -36,7 +36,7 @@
 <g id="node3" class="node">
 <title>2</title>
 <polygon fill="#d35400" stroke="#d35400" points="86,-547.5 32,-547.5 32,-511.5 86,-511.5 86,-547.5"/>
-<text text-anchor="middle" x="59" y="-525.8" font-family="Fira Mono" font-size="14.00" fill="#000000">2</text>
+<text text-anchor="middle" x="59" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">2</text>
 </g>
 <!-- 1&#45;&gt;2 -->
 <g id="edge2" class="edge">
@@ -48,7 +48,7 @@
 <g id="node4" class="node">
 <title>3</title>
 <polygon fill="#f39c12" stroke="#f39c12" points="86,-458.5 32,-458.5 32,-422.5 86,-422.5 86,-458.5"/>
-<text text-anchor="middle" x="59" y="-436.8" font-family="Fira Mono" font-size="14.00" fill="#000000">3</text>
+<text text-anchor="middle" x="59" y="-436.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">3</text>
 </g>
 <!-- 2&#45;&gt;3 -->
 <g id="edge3" class="edge">
@@ -60,7 +60,7 @@
 <g id="node5" class="node">
 <title>4</title>
 <polygon fill="#16a085" stroke="#16a085" points="86,-369.5 32,-369.5 32,-333.5 86,-333.5 86,-369.5"/>
-<text text-anchor="middle" x="59" y="-347.8" font-family="Fira Mono" font-size="14.00" fill="#000000">4</text>
+<text text-anchor="middle" x="59" y="-347.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">4</text>
 </g>
 <!-- 3&#45;&gt;4 -->
 <g id="edge4" class="edge">
@@ -72,7 +72,7 @@
 <g id="node6" class="node">
 <title>5</title>
 <polygon fill="#27ae60" stroke="#27ae60" points="86,-280.5 32,-280.5 32,-244.5 86,-244.5 86,-280.5"/>
-<text text-anchor="middle" x="59" y="-258.8" font-family="Fira Mono" font-size="14.00" fill="#000000">5</text>
+<text text-anchor="middle" x="59" y="-258.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">5</text>
 </g>
 <!-- 4&#45;&gt;5 -->
 <g id="edge5" class="edge">
@@ -84,7 +84,7 @@
 <g id="node7" class="node">
 <title>6</title>
 <polygon fill="#2980b9" stroke="#2980b9" points="86,-199 32,-199 32,-163 86,-163 86,-199"/>
-<text text-anchor="middle" x="59" y="-177.3" font-family="Fira Mono" font-size="14.00" fill="#000000">6</text>
+<text text-anchor="middle" x="59" y="-177.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">6</text>
 </g>
 <!-- 5&#45;&gt;6 -->
 <g id="edge6" class="edge">
@@ -96,7 +96,7 @@
 <g id="node8" class="node">
 <title>7</title>
 <polygon fill="#8e44ad" stroke="#8e44ad" points="86,-125 32,-125 32,-89 86,-89 86,-125"/>
-<text text-anchor="middle" x="59" y="-103.3" font-family="Fira Mono" font-size="14.00" fill="#000000">7</text>
+<text text-anchor="middle" x="59" y="-103.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">7</text>
 </g>
 <!-- 6&#45;&gt;7 -->
 <g id="edge7" class="edge">
@@ -108,7 +108,7 @@
 <g id="node9" class="node">
 <title>8</title>
 <polygon fill="#7f8c8d" stroke="#7f8c8d" points="86,-52 32,-52 32,-16 86,-16 86,-52"/>
-<text text-anchor="middle" x="59" y="-30.3" font-family="Fira Mono" font-size="14.00" fill="#000000">8</text>
+<text text-anchor="middle" x="59" y="-30.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">8</text>
 </g>
 <!-- 7&#45;&gt;8 -->
 <g id="edge8" class="edge">
@@ -120,17 +120,17 @@
 <g id="node10" class="node">
 <title>MAT270</title>
 <polygon fill="#bdc3c7" stroke="#000000" points="1275,-734 1061,-734 1061,-681 1275,-681 1275,-734"/>
-<text text-anchor="middle" x="1168" y="-718.8" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT270</text>
-<text text-anchor="middle" x="1168" y="-703.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Calculus w/ Analytic Geometry I</text>
-<text text-anchor="middle" x="1168" y="-688.8" font-family="Fira Mono" font-size="14.00" fill="#000000">AP</text>
+<text text-anchor="middle" x="1168" y="-718.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT270</text>
+<text text-anchor="middle" x="1168" y="-703.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Calculus w/ Analytic Geometry I</text>
+<text text-anchor="middle" x="1168" y="-688.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">AP</text>
 </g>
 <!-- MAT271 -->
 <g id="node11" class="node">
 <title>MAT271</title>
 <polygon fill="#bdc3c7" stroke="#000000" points="838,-645 620,-645 620,-592 838,-592 838,-645"/>
-<text text-anchor="middle" x="729" y="-629.8" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT271</text>
-<text text-anchor="middle" x="729" y="-614.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Calculus w/ Analytic Geometry II</text>
-<text text-anchor="middle" x="729" y="-599.8" font-family="Fira Mono" font-size="14.00" fill="#000000">AP</text>
+<text text-anchor="middle" x="729" y="-629.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT271</text>
+<text text-anchor="middle" x="729" y="-614.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Calculus w/ Analytic Geometry II</text>
+<text text-anchor="middle" x="729" y="-599.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">AP</text>
 </g>
 <!-- MAT270&#45;&gt;MAT271 -->
 <g id="edge9" class="edge">
@@ -142,9 +142,9 @@
 <g id="node19" class="node">
 <title>MAT243</title>
 <polygon fill="#d35400" stroke="#000000" points="1474.5,-645 1303.5,-645 1303.5,-592 1474.5,-592 1474.5,-645"/>
-<text text-anchor="middle" x="1389" y="-629.8" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT243</text>
-<text text-anchor="middle" x="1389" y="-614.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Discrete Math Structures</text>
-<text text-anchor="middle" x="1389" y="-599.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="1389" y="-629.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT243</text>
+<text text-anchor="middle" x="1389" y="-614.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Discrete Math Structures</text>
+<text text-anchor="middle" x="1389" y="-599.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- MAT270&#45;&gt;MAT243 -->
 <g id="edge14" class="edge">
@@ -156,9 +156,9 @@
 <g id="node27" class="node">
 <title>MAT300</title>
 <polygon fill="#16a085" stroke="#000000" points="1301.5,-556 1134.5,-556 1134.5,-503 1301.5,-503 1301.5,-556"/>
-<text text-anchor="middle" x="1218" y="-540.8" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT300</text>
-<text text-anchor="middle" x="1218" y="-525.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Mathematical Structures</text>
-<text text-anchor="middle" x="1218" y="-510.8" font-family="Fira Mono" font-size="14.00" fill="#000000">B</text>
+<text text-anchor="middle" x="1218" y="-540.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT300</text>
+<text text-anchor="middle" x="1218" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Mathematical Structures</text>
+<text text-anchor="middle" x="1218" y="-510.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">B</text>
 </g>
 <!-- MAT270&#45;&gt;MAT300 -->
 <g id="edge26" class="edge">
@@ -170,8 +170,8 @@
 <g id="node33" class="node">
 <title>CHM113</title>
 <polygon fill="#27ae60" stroke="#000000" points="1189.5,-637.5 1048.5,-637.5 1048.5,-599.5 1189.5,-599.5 1189.5,-637.5"/>
-<text text-anchor="middle" x="1119" y="-622.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CHM113</text>
-<text text-anchor="middle" x="1119" y="-607.3" font-family="Fira Mono" font-size="14.00" fill="#000000">General Chemistry I</text>
+<text text-anchor="middle" x="1119" y="-622.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CHM113</text>
+<text text-anchor="middle" x="1119" y="-607.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">General Chemistry I</text>
 </g>
 <!-- MAT270&#45;&gt;CHM113 -->
 <g id="edge35" class="edge">
@@ -183,9 +183,9 @@
 <g id="node12" class="node">
 <title>MAT267</title>
 <polygon fill="#bdc3c7" stroke="#000000" points="709.5,-556 536.5,-556 536.5,-503 709.5,-503 709.5,-556"/>
-<text text-anchor="middle" x="623" y="-540.8" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT267</text>
-<text text-anchor="middle" x="623" y="-525.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Calculus for Engineers III</text>
-<text text-anchor="middle" x="623" y="-510.8" font-family="Fira Mono" font-size="14.00" fill="#000000">TC</text>
+<text text-anchor="middle" x="623" y="-540.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT267</text>
+<text text-anchor="middle" x="623" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Calculus for Engineers III</text>
+<text text-anchor="middle" x="623" y="-510.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">TC</text>
 </g>
 <!-- MAT271&#45;&gt;MAT267 -->
 <g id="edge10" class="edge">
@@ -197,9 +197,9 @@
 <g id="node16" class="node">
 <title>IEE380</title>
 <polygon fill="#c0392b" stroke="#000000" points="940,-556 728,-556 728,-503 940,-503 940,-556"/>
-<text text-anchor="middle" x="834" y="-540.8" font-family="Fira Mono" font-size="14.00" fill="#000000">IEE380</text>
-<text text-anchor="middle" x="834" y="-525.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Prob &amp; Stats Engr Prob Solving</text>
-<text text-anchor="middle" x="834" y="-510.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A</text>
+<text text-anchor="middle" x="834" y="-540.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">IEE380</text>
+<text text-anchor="middle" x="834" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Prob &amp; Stats Engr Prob Solving</text>
+<text text-anchor="middle" x="834" y="-510.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A</text>
 </g>
 <!-- MAT271&#45;&gt;IEE380 -->
 <g id="edge12" class="edge">
@@ -211,9 +211,9 @@
 <g id="node20" class="node">
 <title>PHY121</title>
 <polygon fill="#d35400" stroke="#000000" points="518.5,-556 339.5,-556 339.5,-503 518.5,-503 518.5,-556"/>
-<text text-anchor="middle" x="429" y="-540.8" font-family="Fira Mono" font-size="14.00" fill="#000000">PHY121</text>
-<text text-anchor="middle" x="429" y="-525.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Univ Physics I: Mechanics</text>
-<text text-anchor="middle" x="429" y="-510.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="429" y="-540.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">PHY121</text>
+<text text-anchor="middle" x="429" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Univ Physics I: Mechanics</text>
+<text text-anchor="middle" x="429" y="-510.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- MAT271&#45;&gt;PHY121 -->
 <g id="edge15" class="edge">
@@ -225,9 +225,9 @@
 <g id="node24" class="node">
 <title>MAT343</title>
 <polygon fill="#f39c12" stroke="#000000" points="1116,-556 958,-556 958,-503 1116,-503 1116,-556"/>
-<text text-anchor="middle" x="1037" y="-540.8" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT343</text>
-<text text-anchor="middle" x="1037" y="-525.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Applied Linear Algebra</text>
-<text text-anchor="middle" x="1037" y="-510.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="1037" y="-540.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT343</text>
+<text text-anchor="middle" x="1037" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Applied Linear Algebra</text>
+<text text-anchor="middle" x="1037" y="-510.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- MAT271&#45;&gt;MAT343 -->
 <g id="edge22" class="edge">
@@ -239,8 +239,8 @@
 <g id="node30" class="node">
 <title>MAT275</title>
 <polygon fill="#27ae60" stroke="#000000" points="321.5,-548.5 120.5,-548.5 120.5,-510.5 321.5,-510.5 321.5,-548.5"/>
-<text text-anchor="middle" x="221" y="-533.3" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT275</text>
-<text text-anchor="middle" x="221" y="-518.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Modern Differential Equations</text>
+<text text-anchor="middle" x="221" y="-533.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT275</text>
+<text text-anchor="middle" x="221" y="-518.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Modern Differential Equations</text>
 </g>
 <!-- MAT271&#45;&gt;MAT275 -->
 <g id="edge31" class="edge">
@@ -252,9 +252,9 @@
 <g id="node28" class="node">
 <title>PHY131</title>
 <polygon fill="#16a085" stroke="#000000" points="581.5,-467 346.5,-467 346.5,-414 581.5,-414 581.5,-467"/>
-<text text-anchor="middle" x="464" y="-451.8" font-family="Fira Mono" font-size="14.00" fill="#000000">PHY131</text>
-<text text-anchor="middle" x="464" y="-436.8" font-family="Fira Mono" font-size="14.00" fill="#000000">University Physics II: Elctrc/Magnet</text>
-<text text-anchor="middle" x="464" y="-421.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A</text>
+<text text-anchor="middle" x="464" y="-451.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">PHY131</text>
+<text text-anchor="middle" x="464" y="-436.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">University Physics II: Elctrc/Magnet</text>
+<text text-anchor="middle" x="464" y="-421.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A</text>
 </g>
 <!-- MAT267&#45;&gt;PHY131 -->
 <g id="edge28" class="edge">
@@ -266,8 +266,8 @@
 <g id="node31" class="node">
 <title>MAT371</title>
 <polygon fill="#27ae60" stroke="#000000" points="1130,-459.5 986,-459.5 986,-421.5 1130,-421.5 1130,-459.5"/>
-<text text-anchor="middle" x="1058" y="-444.3" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT371</text>
-<text text-anchor="middle" x="1058" y="-429.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Advanced Calculus I</text>
+<text text-anchor="middle" x="1058" y="-444.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT371</text>
+<text text-anchor="middle" x="1058" y="-429.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Advanced Calculus I</text>
 </g>
 <!-- MAT267&#45;&gt;MAT371 -->
 <g id="edge32" class="edge">
@@ -279,8 +279,8 @@
 <g id="node35" class="node">
 <title>STP421</title>
 <polygon fill="#2980b9" stroke="#000000" points="682,-459.5 600,-459.5 600,-421.5 682,-421.5 682,-459.5"/>
-<text text-anchor="middle" x="641" y="-444.3" font-family="Fira Mono" font-size="14.00" fill="#000000">STP421</text>
-<text text-anchor="middle" x="641" y="-429.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Probability</text>
+<text text-anchor="middle" x="641" y="-444.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">STP421</text>
+<text text-anchor="middle" x="641" y="-429.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Probability</text>
 </g>
 <!-- MAT267&#45;&gt;STP421 -->
 <g id="edge37" class="edge">
@@ -292,17 +292,17 @@
 <g id="node13" class="node">
 <title>CSE110</title>
 <polygon fill="#bdc3c7" stroke="#000000" points="1691.5,-645 1510.5,-645 1510.5,-592 1691.5,-592 1691.5,-645"/>
-<text text-anchor="middle" x="1601" y="-629.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE110</text>
-<text text-anchor="middle" x="1601" y="-614.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Principles of Programming</text>
-<text text-anchor="middle" x="1601" y="-599.8" font-family="Fira Mono" font-size="14.00" fill="#000000">AP</text>
+<text text-anchor="middle" x="1601" y="-629.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE110</text>
+<text text-anchor="middle" x="1601" y="-614.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Principles of Programming</text>
+<text text-anchor="middle" x="1601" y="-599.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">AP</text>
 </g>
 <!-- CSE205 -->
 <g id="node14" class="node">
 <title>CSE205</title>
 <polygon fill="#c0392b" stroke="#000000" points="1695,-556 1475,-556 1475,-503 1695,-503 1695,-556"/>
-<text text-anchor="middle" x="1585" y="-540.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE205</text>
-<text text-anchor="middle" x="1585" y="-525.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Object&#45;Oriented Program &amp; Data</text>
-<text text-anchor="middle" x="1585" y="-510.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="1585" y="-540.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE205</text>
+<text text-anchor="middle" x="1585" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Object&#45;Oriented Program &amp; Data</text>
+<text text-anchor="middle" x="1585" y="-510.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- CSE110&#45;&gt;CSE205 -->
 <g id="edge11" class="edge">
@@ -314,9 +314,9 @@
 <g id="node22" class="node">
 <title>CSE230</title>
 <polygon fill="#f39c12" stroke="#000000" points="2149,-378 1921,-378 1921,-325 2149,-325 2149,-378"/>
-<text text-anchor="middle" x="2035" y="-362.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE230</text>
-<text text-anchor="middle" x="2035" y="-347.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Computer Org/Assemb Lang Prog</text>
-<text text-anchor="middle" x="2035" y="-332.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="2035" y="-362.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE230</text>
+<text text-anchor="middle" x="2035" y="-347.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Computer Org/Assemb Lang Prog</text>
+<text text-anchor="middle" x="2035" y="-332.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- CSE110&#45;&gt;CSE230 -->
 <g id="edge18" class="edge">
@@ -328,9 +328,9 @@
 <g id="node18" class="node">
 <title>CSE240</title>
 <polygon fill="#d35400" stroke="#000000" points="1702.5,-467 1481.5,-467 1481.5,-414 1702.5,-414 1702.5,-467"/>
-<text text-anchor="middle" x="1592" y="-451.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE240</text>
-<text text-anchor="middle" x="1592" y="-436.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Intro to Programming Languages</text>
-<text text-anchor="middle" x="1592" y="-421.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="1592" y="-451.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE240</text>
+<text text-anchor="middle" x="1592" y="-436.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Intro to Programming Languages</text>
+<text text-anchor="middle" x="1592" y="-421.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- CSE205&#45;&gt;CSE240 -->
 <g id="edge13" class="edge">
@@ -342,8 +342,8 @@
 <g id="node40" class="node">
 <title>CSE301</title>
 <polygon fill="#2980b9" stroke="#000000" points="1854,-459.5 1728,-459.5 1728,-421.5 1854,-421.5 1854,-459.5"/>
-<text text-anchor="middle" x="1791" y="-444.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE301</text>
-<text text-anchor="middle" x="1791" y="-429.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Computing Ethics</text>
+<text text-anchor="middle" x="1791" y="-444.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE301</text>
+<text text-anchor="middle" x="1791" y="-429.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Computing Ethics</text>
 </g>
 <!-- CSE205&#45;&gt;CSE301 -->
 <g id="edge45" class="edge">
@@ -355,8 +355,8 @@
 <g id="node42" class="node">
 <title>MAT447</title>
 <polygon fill="#8e44ad" stroke="#000000" points="1378,-459.5 1270,-459.5 1270,-421.5 1378,-421.5 1378,-459.5"/>
-<text text-anchor="middle" x="1324" y="-444.3" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT447</text>
-<text text-anchor="middle" x="1324" y="-429.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Cryptography I</text>
+<text text-anchor="middle" x="1324" y="-444.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT447</text>
+<text text-anchor="middle" x="1324" y="-429.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Cryptography I</text>
 </g>
 <!-- CSE205&#45;&gt;MAT447 -->
 <g id="edge50" class="edge">
@@ -368,9 +368,9 @@
 <g id="node15" class="node">
 <title>FSE100</title>
 <polygon fill="#c0392b" stroke="#000000" points="1897,-556 1713,-556 1713,-503 1897,-503 1897,-556"/>
-<text text-anchor="middle" x="1805" y="-540.8" font-family="Fira Mono" font-size="14.00" fill="#000000">FSE100</text>
-<text text-anchor="middle" x="1805" y="-525.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Introduction to Engineering</text>
-<text text-anchor="middle" x="1805" y="-510.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A</text>
+<text text-anchor="middle" x="1805" y="-540.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">FSE100</text>
+<text text-anchor="middle" x="1805" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Introduction to Engineering</text>
+<text text-anchor="middle" x="1805" y="-510.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A</text>
 </g>
 <!-- FSE100&#45;&gt;CSE301 -->
 <g id="edge44" class="edge">
@@ -382,9 +382,9 @@
 <g id="node17" class="node">
 <title>CSE120</title>
 <polygon fill="#d35400" stroke="#000000" points="2148.5,-467 1953.5,-467 1953.5,-414 2148.5,-414 2148.5,-467"/>
-<text text-anchor="middle" x="2051" y="-451.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE120</text>
-<text text-anchor="middle" x="2051" y="-436.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Digital Design Fundamentals</text>
-<text text-anchor="middle" x="2051" y="-421.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="2051" y="-451.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE120</text>
+<text text-anchor="middle" x="2051" y="-436.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Digital Design Fundamentals</text>
+<text text-anchor="middle" x="2051" y="-421.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- CSE120&#45;&gt;CSE230 -->
 <g id="edge19" class="edge">
@@ -396,9 +396,9 @@
 <g id="node23" class="node">
 <title>CSE310</title>
 <polygon fill="#f39c12" stroke="#000000" points="1511.5,-378 1300.5,-378 1300.5,-325 1511.5,-325 1511.5,-378"/>
-<text text-anchor="middle" x="1406" y="-362.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE310</text>
-<text text-anchor="middle" x="1406" y="-347.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Data Structures and Algorithms</text>
-<text text-anchor="middle" x="1406" y="-332.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="1406" y="-362.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE310</text>
+<text text-anchor="middle" x="1406" y="-347.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Data Structures and Algorithms</text>
+<text text-anchor="middle" x="1406" y="-332.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- CSE240&#45;&gt;CSE310 -->
 <g id="edge20" class="edge">
@@ -410,9 +410,9 @@
 <g id="node26" class="node">
 <title>CSE365</title>
 <polygon fill="#16a085" stroke="#000000" points="1686.5,-378 1529.5,-378 1529.5,-325 1686.5,-325 1686.5,-378"/>
-<text text-anchor="middle" x="1608" y="-362.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE365</text>
-<text text-anchor="middle" x="1608" y="-347.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Information Assurance</text>
-<text text-anchor="middle" x="1608" y="-332.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A+</text>
+<text text-anchor="middle" x="1608" y="-362.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE365</text>
+<text text-anchor="middle" x="1608" y="-347.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Information Assurance</text>
+<text text-anchor="middle" x="1608" y="-332.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A+</text>
 </g>
 <!-- CSE240&#45;&gt;CSE365 -->
 <g id="edge25" class="edge">
@@ -424,8 +424,8 @@
 <g id="node32" class="node">
 <title>CSE360</title>
 <polygon fill="#27ae60" stroke="#000000" points="1903,-370.5 1705,-370.5 1705,-332.5 1903,-332.5 1903,-370.5"/>
-<text text-anchor="middle" x="1804" y="-355.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE360</text>
-<text text-anchor="middle" x="1804" y="-340.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Intro to Software Engineering</text>
+<text text-anchor="middle" x="1804" y="-355.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE360</text>
+<text text-anchor="middle" x="1804" y="-340.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Intro to Software Engineering</text>
 </g>
 <!-- CSE240&#45;&gt;CSE360 -->
 <g id="edge34" class="edge">
@@ -443,9 +443,9 @@
 <g id="node21" class="node">
 <title>PHY122</title>
 <polygon fill="#d35400" stroke="#000000" points="328,-467 196,-467 196,-414 328,-414 328,-467"/>
-<text text-anchor="middle" x="262" y="-451.8" font-family="Fira Mono" font-size="14.00" fill="#000000">PHY122</text>
-<text text-anchor="middle" x="262" y="-436.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Univ Physics Lab I</text>
-<text text-anchor="middle" x="262" y="-421.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A&#45;</text>
+<text text-anchor="middle" x="262" y="-451.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">PHY122</text>
+<text text-anchor="middle" x="262" y="-436.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Univ Physics Lab I</text>
+<text text-anchor="middle" x="262" y="-421.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A&#45;</text>
 </g>
 <!-- PHY121&#45;&gt;PHY122 -->
 <g id="edge17" class="edge">
@@ -469,9 +469,9 @@
 <g id="node25" class="node">
 <title>CSE340</title>
 <polygon fill="#16a085" stroke="#000000" points="2106,-289 1890,-289 1890,-236 2106,-236 2106,-289"/>
-<text text-anchor="middle" x="1998" y="-273.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE340</text>
-<text text-anchor="middle" x="1998" y="-258.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Principles of Programming Lang</text>
-<text text-anchor="middle" x="1998" y="-243.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A</text>
+<text text-anchor="middle" x="1998" y="-273.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE340</text>
+<text text-anchor="middle" x="1998" y="-258.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Principles of Programming Lang</text>
+<text text-anchor="middle" x="1998" y="-243.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A</text>
 </g>
 <!-- CSE230&#45;&gt;CSE340 -->
 <g id="edge24" class="edge">
@@ -483,8 +483,8 @@
 <g id="node39" class="node">
 <title>CSE330</title>
 <polygon fill="#2980b9" stroke="#000000" points="1872,-281.5 1736,-281.5 1736,-243.5 1872,-243.5 1872,-281.5"/>
-<text text-anchor="middle" x="1804" y="-266.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE330</text>
-<text text-anchor="middle" x="1804" y="-251.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Operating Systems</text>
+<text text-anchor="middle" x="1804" y="-266.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE330</text>
+<text text-anchor="middle" x="1804" y="-251.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Operating Systems</text>
 </g>
 <!-- CSE230&#45;&gt;CSE330 -->
 <g id="edge42" class="edge">
@@ -502,8 +502,8 @@
 <g id="node34" class="node">
 <title>CSE355</title>
 <polygon fill="#27ae60" stroke="#000000" points="1284,-281.5 1078,-281.5 1078,-243.5 1284,-243.5 1284,-281.5"/>
-<text text-anchor="middle" x="1181" y="-266.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE355</text>
-<text text-anchor="middle" x="1181" y="-251.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Intro Theoretical Computer Sci</text>
+<text text-anchor="middle" x="1181" y="-266.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE355</text>
+<text text-anchor="middle" x="1181" y="-251.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Intro Theoretical Computer Sci</text>
 </g>
 <!-- CSE310&#45;&gt;CSE355 -->
 <g id="edge36" class="edge">
@@ -515,8 +515,8 @@
 <g id="node37" class="node">
 <title>CSE450</title>
 <polygon fill="#2980b9" stroke="#000000" points="1509.5,-281.5 1302.5,-281.5 1302.5,-243.5 1509.5,-243.5 1509.5,-281.5"/>
-<text text-anchor="middle" x="1406" y="-266.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE450</text>
-<text text-anchor="middle" x="1406" y="-251.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Design&amp;Analysis of Algorithms</text>
+<text text-anchor="middle" x="1406" y="-266.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE450</text>
+<text text-anchor="middle" x="1406" y="-251.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Design&amp;Analysis of Algorithms</text>
 </g>
 <!-- CSE310&#45;&gt;CSE450 -->
 <g id="edge40" class="edge">
@@ -528,8 +528,8 @@
 <g id="node38" class="node">
 <title>CSE412</title>
 <polygon fill="#2980b9" stroke="#000000" points="870,-281.5 708,-281.5 708,-243.5 870,-243.5 870,-281.5"/>
-<text text-anchor="middle" x="789" y="-266.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE412</text>
-<text text-anchor="middle" x="789" y="-251.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Database Management</text>
+<text text-anchor="middle" x="789" y="-266.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE412</text>
+<text text-anchor="middle" x="789" y="-251.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Database Management</text>
 </g>
 <!-- CSE310&#45;&gt;CSE412 -->
 <g id="edge41" class="edge">
@@ -547,8 +547,8 @@
 <g id="node43" class="node">
 <title>CSE466</title>
 <polygon fill="#8e44ad" stroke="#000000" points="1718,-281.5 1528,-281.5 1528,-243.5 1718,-243.5 1718,-281.5"/>
-<text text-anchor="middle" x="1623" y="-266.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE466</text>
-<text text-anchor="middle" x="1623" y="-251.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Computer Systems Security</text>
+<text text-anchor="middle" x="1623" y="-266.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE466</text>
+<text text-anchor="middle" x="1623" y="-251.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Computer Systems Security</text>
 </g>
 <!-- CSE310&#45;&gt;CSE466 -->
 <g id="edge53" class="edge">
@@ -560,8 +560,8 @@
 <g id="node45" class="node">
 <title>CSE471</title>
 <polygon fill="#7f8c8d" stroke="#000000" points="1060,-281.5 888,-281.5 888,-243.5 1060,-243.5 1060,-281.5"/>
-<text text-anchor="middle" x="974" y="-266.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE471</text>
-<text text-anchor="middle" x="974" y="-251.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Intro Artificial Intelligence</text>
+<text text-anchor="middle" x="974" y="-266.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE471</text>
+<text text-anchor="middle" x="974" y="-251.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Intro Artificial Intelligence</text>
 </g>
 <!-- CSE310&#45;&gt;CSE471 -->
 <g id="edge56" class="edge">
@@ -573,8 +573,8 @@
 <g id="node36" class="node">
 <title>MAT416</title>
 <polygon fill="#2980b9" stroke="#000000" points="1251.5,-459.5 1148.5,-459.5 1148.5,-421.5 1251.5,-421.5 1251.5,-459.5"/>
-<text text-anchor="middle" x="1200" y="-444.3" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT416</text>
-<text text-anchor="middle" x="1200" y="-429.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Graph Theory</text>
+<text text-anchor="middle" x="1200" y="-444.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT416</text>
+<text text-anchor="middle" x="1200" y="-429.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Graph Theory</text>
 </g>
 <!-- MAT343&#45;&gt;MAT416 -->
 <g id="edge39" class="edge">
@@ -592,8 +592,8 @@
 <g id="node44" class="node">
 <title>CSE477</title>
 <polygon fill="#8e44ad" stroke="#000000" points="967.5,-459.5 738.5,-459.5 738.5,-421.5 967.5,-421.5 967.5,-459.5"/>
-<text text-anchor="middle" x="853" y="-444.3" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE477</text>
-<text text-anchor="middle" x="853" y="-429.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Intro Computer&#45;Aided Geom Desg</text>
+<text text-anchor="middle" x="853" y="-444.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE477</text>
+<text text-anchor="middle" x="853" y="-429.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Intro Computer&#45;Aided Geom Desg</text>
 </g>
 <!-- MAT343&#45;&gt;CSE477 -->
 <g id="edge55" class="edge">
@@ -605,8 +605,8 @@
 <g id="node48" class="node">
 <title>STP425</title>
 <polygon fill="#7f8c8d" stroke="#000000" points="785,-370.5 635,-370.5 635,-332.5 785,-332.5 785,-370.5"/>
-<text text-anchor="middle" x="710" y="-355.3" font-family="Fira Mono" font-size="14.00" fill="#000000">STP425</text>
-<text text-anchor="middle" x="710" y="-340.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Stochastic Processes</text>
+<text text-anchor="middle" x="710" y="-355.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">STP425</text>
+<text text-anchor="middle" x="710" y="-340.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Stochastic Processes</text>
 </g>
 <!-- MAT343&#45;&gt;STP425 -->
 <g id="edge59" class="edge">
@@ -618,8 +618,8 @@
 <g id="node41" class="node">
 <title>CSE485</title>
 <polygon fill="#8e44ad" stroke="#000000" points="2002,-200 1800,-200 1800,-162 2002,-162 2002,-200"/>
-<text text-anchor="middle" x="1901" y="-184.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE485</text>
-<text text-anchor="middle" x="1901" y="-169.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Computer Sci Capstone Proj I</text>
+<text text-anchor="middle" x="1901" y="-184.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE485</text>
+<text text-anchor="middle" x="1901" y="-169.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Computer Sci Capstone Proj I</text>
 </g>
 <!-- CSE340&#45;&gt;CSE485 -->
 <g id="edge47" class="edge">
@@ -655,9 +655,9 @@
 <g id="node29" class="node">
 <title>PHY132</title>
 <polygon fill="#16a085" stroke="#000000" points="548.5,-378 379.5,-378 379.5,-325 548.5,-325 548.5,-378"/>
-<text text-anchor="middle" x="464" y="-362.8" font-family="Fira Mono" font-size="14.00" fill="#000000">PHY132</text>
-<text text-anchor="middle" x="464" y="-347.8" font-family="Fira Mono" font-size="14.00" fill="#000000">University Physics Lab II</text>
-<text text-anchor="middle" x="464" y="-332.8" font-family="Fira Mono" font-size="14.00" fill="#000000">A&#45;</text>
+<text text-anchor="middle" x="464" y="-362.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">PHY132</text>
+<text text-anchor="middle" x="464" y="-347.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">University Physics Lab II</text>
+<text text-anchor="middle" x="464" y="-332.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">A&#45;</text>
 </g>
 <!-- PHY131&#45;&gt;PHY132 -->
 <g id="edge30" class="edge">
@@ -705,8 +705,8 @@
 <g id="node46" class="node">
 <title>CSE486</title>
 <polygon fill="#7f8c8d" stroke="#000000" points="2004,-126 1798,-126 1798,-88 2004,-88 2004,-126"/>
-<text text-anchor="middle" x="1901" y="-110.8" font-family="Fira Mono" font-size="14.00" fill="#000000">CSE486</text>
-<text text-anchor="middle" x="1901" y="-95.8" font-family="Fira Mono" font-size="14.00" fill="#000000">Computer Sci Capstone Proj II</text>
+<text text-anchor="middle" x="1901" y="-110.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">CSE486</text>
+<text text-anchor="middle" x="1901" y="-95.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">Computer Sci Capstone Proj II</text>
 </g>
 <!-- CSE485&#45;&gt;CSE486 -->
 <g id="edge57" class="edge">
@@ -718,8 +718,8 @@
 <g id="node47" class="node">
 <title>MAT448</title>
 <polygon fill="#7f8c8d" stroke="#000000" points="1282,-370.5 1170,-370.5 1170,-332.5 1282,-332.5 1282,-370.5"/>
-<text text-anchor="middle" x="1226" y="-355.3" font-family="Fira Mono" font-size="14.00" fill="#000000">MAT448</text>
-<text text-anchor="middle" x="1226" y="-340.3" font-family="Fira Mono" font-size="14.00" fill="#000000">Cryptography II</text>
+<text text-anchor="middle" x="1226" y="-355.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">MAT448</text>
+<text text-anchor="middle" x="1226" y="-340.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">Cryptography II</text>
 </g>
 <!-- MAT447&#45;&gt;MAT448 -->
 <g id="edge58" class="edge">

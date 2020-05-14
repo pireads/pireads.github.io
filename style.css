@@ -56,6 +56,10 @@ h1 {
   -webkit-animation-iteration-count: 1;
 }
 
+a {
+  padding: 5px;
+}
+
 a:link {
   font-size: 50px;
   color: #83C8F5;
@@ -80,3 +84,7 @@ a:hover {
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-iteration-count: 1;
 }
+
+/* img {
+  width: 1000px;
+} */

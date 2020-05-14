@@ -61,29 +61,21 @@ h1 {
 }
 
 a {
+  color: #83C8F5;
   padding-right: 0.5vw;
+  -webkit-animation-duration: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
 }
 
 a:link {
-  color: #83C8F5;
   -webkit-animation-name: linkback;
-  -webkit-animation-duration: 0.2s;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-iteration-count: 1;
 }
 
 a:visited {
-  color: #83C8F5;
   -webkit-animation-name: linkback;
-  -webkit-animation-duration: 0.2s;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-iteration-count: 1;
 }
 
 a:hover {
-  color: #83C8F5;
   -webkit-animation-name: link;
-  -webkit-animation-duration: 0.2s;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-iteration-count: 1;
 }

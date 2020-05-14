@@ -45,23 +45,26 @@ body {
   background-color: #000;
   color: #fff;
   font-family: 'Decovar';
+  font-size: 3vw;
+  margin-left: 1vw;
+  margin: 0vw;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 8vw;
   font-family: 'Decovar';
   -webkit-animation-name: head;
   -webkit-animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-iteration-count: 1;
+  margin: 0vw;
 }
 
 a {
-  padding: 5px;
+  padding-right: 0.5vw;
 }
 
 a:link {
-  font-size: 50px;
   color: #83C8F5;
   -webkit-animation-name: linkback;
   -webkit-animation-duration: 0.2s;

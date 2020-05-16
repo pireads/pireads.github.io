@@ -26,23 +26,11 @@
 <polygon fill="#c0392b" stroke="#c0392b" points="86,-636.5 32,-636.5 32,-600.5 86,-600.5 86,-636.5"/>
 <text text-anchor="middle" x="59" y="-614.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">1</text>
 </g>
-<!-- 0&#45;&gt;1 -->
-<g id="edge1" class="edge">
-<title>0&#45;&gt;1</title>
-<path fill="none" stroke="#ecf0f1" d="M59,-689.4895C59,-677.2658 59,-660.8495 59,-646.8824"/>
-<polygon fill="#ecf0f1" stroke="#ecf0f1" points="62.5001,-646.7891 59,-636.7892 55.5001,-646.7892 62.5001,-646.7891"/>
-</g>
 <!-- 2 -->
 <g id="node3" class="node">
 <title>2</title>
 <polygon fill="#d35400" stroke="#d35400" points="86,-547.5 32,-547.5 32,-511.5 86,-511.5 86,-547.5"/>
 <text text-anchor="middle" x="59" y="-525.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">2</text>
-</g>
-<!-- 1&#45;&gt;2 -->
-<g id="edge2" class="edge">
-<title>1&#45;&gt;2</title>
-<path fill="none" stroke="#ecf0f1" d="M59,-600.4895C59,-588.2658 59,-571.8495 59,-557.8824"/>
-<polygon fill="#ecf0f1" stroke="#ecf0f1" points="62.5001,-557.7891 59,-547.7892 55.5001,-557.7892 62.5001,-557.7891"/>
 </g>
 <!-- 3 -->
 <g id="node4" class="node">
@@ -50,23 +38,11 @@
 <polygon fill="#f39c12" stroke="#f39c12" points="86,-458.5 32,-458.5 32,-422.5 86,-422.5 86,-458.5"/>
 <text text-anchor="middle" x="59" y="-436.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">3</text>
 </g>
-<!-- 2&#45;&gt;3 -->
-<g id="edge3" class="edge">
-<title>2&#45;&gt;3</title>
-<path fill="none" stroke="#ecf0f1" d="M59,-511.4895C59,-499.2658 59,-482.8495 59,-468.8824"/>
-<polygon fill="#ecf0f1" stroke="#ecf0f1" points="62.5001,-468.7891 59,-458.7892 55.5001,-468.7892 62.5001,-468.7891"/>
-</g>
 <!-- 4 -->
 <g id="node5" class="node">
 <title>4</title>
 <polygon fill="#16a085" stroke="#16a085" points="86,-369.5 32,-369.5 32,-333.5 86,-333.5 86,-369.5"/>
 <text text-anchor="middle" x="59" y="-347.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">4</text>
-</g>
-<!-- 3&#45;&gt;4 -->
-<g id="edge4" class="edge">
-<title>3&#45;&gt;4</title>
-<path fill="none" stroke="#ecf0f1" d="M59,-422.4895C59,-410.2658 59,-393.8495 59,-379.8824"/>
-<polygon fill="#ecf0f1" stroke="#ecf0f1" points="62.5001,-379.7891 59,-369.7892 55.5001,-379.7892 62.5001,-379.7891"/>
 </g>
 <!-- 5 -->
 <g id="node6" class="node">
@@ -74,23 +50,11 @@
 <polygon fill="#27ae60" stroke="#27ae60" points="86,-280.5 32,-280.5 32,-244.5 86,-244.5 86,-280.5"/>
 <text text-anchor="middle" x="59" y="-258.8" font-family="Sans-Serif" font-size="14.00" fill="#000000">5</text>
 </g>
-<!-- 4&#45;&gt;5 -->
-<g id="edge5" class="edge">
-<title>4&#45;&gt;5</title>
-<path fill="none" stroke="#ecf0f1" d="M59,-333.4895C59,-321.2658 59,-304.8495 59,-290.8824"/>
-<polygon fill="#ecf0f1" stroke="#ecf0f1" points="62.5001,-290.7891 59,-280.7892 55.5001,-290.7892 62.5001,-290.7891"/>
-</g>
 <!-- 6 -->
 <g id="node7" class="node">
 <title>6</title>
 <polygon fill="#2980b9" stroke="#2980b9" points="86,-199 32,-199 32,-163 86,-163 86,-199"/>
 <text text-anchor="middle" x="59" y="-177.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">6</text>
-</g>
-<!-- 5&#45;&gt;6 -->
-<g id="edge6" class="edge">
-<title>5&#45;&gt;6</title>
-<path fill="none" stroke="#ecf0f1" d="M59,-244.4125C59,-234.072 59,-220.8769 59,-209.2037"/>
-<polygon fill="#ecf0f1" stroke="#ecf0f1" points="62.5001,-209.0369 59,-199.0369 55.5001,-209.037 62.5001,-209.0369"/>
 </g>
 <!-- 7 -->
 <g id="node8" class="node">
@@ -98,23 +62,11 @@
 <polygon fill="#8e44ad" stroke="#8e44ad" points="86,-125 32,-125 32,-89 86,-89 86,-125"/>
 <text text-anchor="middle" x="59" y="-103.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">7</text>
 </g>
-<!-- 6&#45;&gt;7 -->
-<g id="edge7" class="edge">
-<title>6&#45;&gt;7</title>
-<path fill="none" stroke="#ecf0f1" d="M59,-162.7079C59,-154.4635 59,-144.5376 59,-135.3622"/>
-<polygon fill="#ecf0f1" stroke="#ecf0f1" points="62.5001,-135.0817 59,-125.0817 55.5001,-135.0818 62.5001,-135.0817"/>
-</g>
 <!-- 8 -->
 <g id="node9" class="node">
 <title>8</title>
 <polygon fill="#7f8c8d" stroke="#7f8c8d" points="86,-52 32,-52 32,-16 86,-16 86,-52"/>
 <text text-anchor="middle" x="59" y="-30.3" font-family="Sans-Serif" font-size="14.00" fill="#000000">8</text>
-</g>
-<!-- 7&#45;&gt;8 -->
-<g id="edge8" class="edge">
-<title>7&#45;&gt;8</title>
-<path fill="none" stroke="#ecf0f1" d="M59,-88.9551C59,-80.8828 59,-71.1764 59,-62.1817"/>
-<polygon fill="#ecf0f1" stroke="#ecf0f1" points="62.5001,-62.0903 59,-52.0904 55.5001,-62.0904 62.5001,-62.0903"/>
 </g>
 <!-- MAT270 -->
 <g id="node10" class="node">

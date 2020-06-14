@@ -18,12 +18,23 @@
   }
 }
 
+@media screen and (max-width: 540px) {
+  .link {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 541px) {
+  .link {
+    font-size: 3vw;
+  }
+}
+
 .link {
+  padding-right: 1vw;
+  padding-left: 1vw;
   color: #83C8F5;
   font-family: 'Decovar';
-  font-size: 3vw;
   margin: 0vw;
-  padding-right: 2vw;
   padding-top: 0vw;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;

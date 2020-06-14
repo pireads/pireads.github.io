@@ -16,8 +16,18 @@
   }
 }
 
+@media screen and (max-width: 540px) {
+  .name {
+    font-size: 16vw;
+  }
+}
+@media screen and (min-width: 541px) {
+  .name {
+    font-size: 8vw;
+  }
+}
+
 .name {
-  font-size: 8vw;
   font-family: 'Decovar';
   animation-name: head;
   animation-duration: 2s;

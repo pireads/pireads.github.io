@@ -1,0 +1,28 @@
+@keyframes head {
+  0% {
+    font-variation-settings: 'SKLD'1000;
+  }
+
+  75% {
+    font-variation-settings: 'SKLD'0;
+  }
+
+  76% {
+    font-variation-settings: 'TRMD'0;
+  }
+
+  100% {
+    font-variation-settings: 'TRMD'1000;
+  }
+}
+
+.name {
+  font-size: 8vw;
+  font-family: 'Decovar';
+  animation-name: head;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  margin: 0vw;
+  padding-top: 0vw;
+}

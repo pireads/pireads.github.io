@@ -1,0 +1,39 @@
+@keyframes link {
+  from {
+    font-variation-settings: 'TRMG'0;
+  }
+
+  to {
+    font-variation-settings: 'TRMG'1000;
+  }
+}
+
+@keyframes linkback {
+  from {
+    font-variation-settings: 'TRMG'1000;
+  }
+
+  to {
+    font-variation-settings: 'TRMG'0;
+  }
+}
+
+.link {
+  color: #83C8F5;
+  font-family: 'Decovar';
+  font-size: 3vw;
+  margin: 0vw;
+  padding-right: 2vw;
+  padding-top: 0vw;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.linkBack {
+  animation-name: linkback;
+}
+
+.link:hover {
+  animation-name: link;
+}

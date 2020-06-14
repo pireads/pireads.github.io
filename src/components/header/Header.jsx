@@ -1,6 +1,8 @@
-import React from "react"
-import MyName from "./myName/MyName"
-import FancyLink from "./fancyLink/FancyLink"
+import React from "react";
+
+import MyName from "../myName/MyName";
+import FancyLink from "../fancyLink/FancyLink";
+import icon from "./icon.png";
 
 export default class Header extends React.Component {
   render() {
@@ -10,9 +12,9 @@ export default class Header extends React.Component {
         <FancyLink address="/" text="home" />
         <FancyLink address="/resume" text="resume" />
         <FancyLink address="/transcript" text="transcript" />
-        <br/>
-        <br/>
+        <br />
+        <br />
       </div>
-    )
+    );
   }
 }

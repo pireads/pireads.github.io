@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQbMZhKSbpUVzEEQ.woff)
+    format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.header {
+  font-family: "Decovar";
+  font-size: 30px;
+  font-variation-settings: "TRMD" 1000;
+}
+
+.icon {
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+.smallIcon {
+  font-size: 15px;
+  padding-right: 1vw;
+  padding-bottom: 5px;
+  padding-left: 1vw;
+}
+
+.columns {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  display: grid;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+  margin: 0;
+}
+
+.twoColumns {
+  grid-template-columns: 75% 25%;
+}
+
+.entry {
+  margin: 0;
+}
+
+.bullets {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  padding-bottom: 3vw;
+  padding-left: 1vw;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .skillColumns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 801px) {
+  .skillColumns {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+.skill {
+  margin: 0;
+  text-align: center;
+}

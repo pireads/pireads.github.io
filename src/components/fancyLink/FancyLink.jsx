@@ -5,13 +5,13 @@ import fancyLinkStyles from "./fancyLink.module.css"
 export default class FancyLink extends React.Component {
   state = {
     hasHovered: false,
-    key: +new Date(),
+    key: Math.random(),
   }
 
   mouseLeft = () => {
     this.setState(() => ({
       hasHovered: true,
-      key: +new Date(),
+      key: Math.random(),
     }))
   }
 

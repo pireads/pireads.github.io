@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import Job from "./Job";
+import resumeStyles from './resumeStyles.module.css'
 
 export default class Resume extends React.Component {
   render() {
@@ -16,6 +17,7 @@ export default class Resume extends React.Component {
           icon={faProjectDiagram}
           bullets={["Built a personal website."]}
         />
+        <hr className={resumeStyles.line} />
         <Job
           name="projecteuler.net"
           time="2016-present"

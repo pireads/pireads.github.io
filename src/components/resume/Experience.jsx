@@ -1,9 +1,12 @@
 import React from "react";
 import { faGitkraken, faPython } from "@fortawesome/free-brands-svg-icons";
-import { faSatellite,
-  faBroadcastTower } from "@fortawesome/free-solid-svg-icons";
+import {
+  faSatellite,
+  faBroadcastTower,
+} from "@fortawesome/free-solid-svg-icons";
 
 import Job from "./Job";
+import resumeStyles from './resumeStyles.module.css'
 
 export default class Resume extends React.Component {
   render() {
@@ -20,6 +23,7 @@ export default class Resume extends React.Component {
             "Fixed various bugs within the Gitkraken Git GUI.",
           ]}
         />
+        <hr className={resumeStyles.line} />
         <Job
           name="ASU Parallel Systems and Computing Labratory"
           time="Spring 2020"
@@ -30,6 +34,7 @@ export default class Resume extends React.Component {
             "Ported compressive sensing algorithms to PyTorch for meta-analysis.",
           ]}
         />
+        <hr className={resumeStyles.line} />
         <Job
           name="Jacobs Technology"
           time="Summer 2019"
@@ -41,6 +46,7 @@ export default class Resume extends React.Component {
             "Researched and developed a modern alternative to paper data collection.",
           ]}
         />
+        <hr className={resumeStyles.line} />
         <Job
           name="Left Hand Robotics"
           time="2017-2018"
@@ -49,7 +55,7 @@ export default class Resume extends React.Component {
           icon={faSatellite}
           bullets={[
             "Implemented an OTA software deployment system.",
-            "Programmed hardware used for differential GPS."
+            "Programmed hardware used for differential GPS.",
           ]}
         />
       </div>

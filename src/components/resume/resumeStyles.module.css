@@ -11,22 +11,20 @@
 
 .icon {
   padding-right: 1vw;
-  padding-left: 1vw;
 }
 
 .smallIcon {
   font-size: 15px;
   padding-right: 1vw;
   padding-bottom: 5px;
-  padding-left: 1vw;
 }
 
 .columns {
   font-family: "Josefin Sans";
   font-size: 30px;
   display: grid;
-  padding-bottom: 1vw;
-  padding-left: 1vw;
+  padding-bottom: 0.5vw;
+  padding-top: 0.5vw;
   margin: 0;
 }
 
@@ -41,7 +39,7 @@
 .bullets {
   font-family: "Josefin Sans";
   font-size: 30px;
-  padding-bottom: 3vw;
+  padding-bottom: 1vw;
   padding-left: 1vw;
   margin: 0;
 }
@@ -60,4 +58,16 @@
 .skill {
   margin: 0;
   text-align: center;
+}
+
+.line {
+  height:0vh;
+  color:white;
+  background-color:white;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }

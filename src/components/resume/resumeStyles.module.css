@@ -23,8 +23,7 @@
   font-family: "Josefin Sans";
   font-size: 30px;
   display: grid;
-  padding-bottom: 0.5vw;
-  padding-top: 0.5vw;
+  padding-top: 1vw;
   margin: 0;
 }
 
@@ -46,12 +45,12 @@
 
 @media screen and (max-width: 800px) {
   .skillColumns {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 801px) {
   .skillColumns {
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

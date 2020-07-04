@@ -13,7 +13,7 @@ export default class Resume extends React.Component {
       <div>
         <Job
           name="avimoskoff.me"
-          address="/"
+          address="https://github.com/pireads/pireads.github.io/"
           time="Summer 2020"
           icon={faProjectDiagram}
           bullets={["Built a personal website."]}

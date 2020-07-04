@@ -1,5 +1,5 @@
 /*https://fontawesome.com/how-to-use/on-the-web/other-topics/server-side-rendering*/
-@import url('https://use.fontawesome.com/releases/v5.13.1/css/svg-with-js.css');
+@import url("https://use.fontawesome.com/releases/v5.13.1/css/svg-with-js.css");
 
 .header {
   font-family: "Handjet";
@@ -13,8 +13,6 @@
 .smallIcon {
   padding-right: 1vw;
   vertical-align: inherit;
-  /* float: right; */
-  /* text-align: right; */
   padding-left: 50%;
   padding-bottom: 0.25em;
 }
@@ -37,6 +35,7 @@
 .bulletEntry {
   display: grid;
   grid-template-columns: 5% 95%;
+  padding-top: 1vw;
 }
 
 .bullets {
@@ -45,7 +44,6 @@
   padding-left: 1vw;
   margin: 0;
 }
-
 
 @media screen and (max-width: 800px) {
   .skillColumns {
@@ -94,9 +92,9 @@
 }
 
 .line {
-  height:0vh;
-  color:white;
-  background-color:white;
+  height: 0vh;
+  color: white;
+  background-color: white;
 }
 
 .container {

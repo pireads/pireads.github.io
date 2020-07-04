@@ -1,18 +1,9 @@
 @keyframes head {
-  0% {
-    font-variation-settings: 'SKLD'1000;
+  from {
+    font-variation-settings: "wght" 65, "wdth" 250, "opsz" 0;
   }
-
-  75% {
-    font-variation-settings: 'SKLD'0;
-  }
-
-  76% {
-    font-variation-settings: 'TRMD'0;
-  }
-
-  100% {
-    font-variation-settings: 'TRMD'1000;
+  to {
+    font-variation-settings: "wght" 65, "wdth" 400, "opsz" 100;
   }
 }
 
@@ -28,7 +19,7 @@
 }
 
 .name {
-  font-family: 'Decovar';
+  font-family: 'Handjet';
   animation-name: head;
   animation-duration: 2s;
   animation-fill-mode: forwards;

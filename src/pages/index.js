@@ -6,10 +6,9 @@ export default class Index extends React.Component {
     return (
       <div>
         <Header/>
-        <img
-          src="https://projecteuler.net/profile/pireads.png"
-          alt="Project Euler"
-        />
+        <p>
+        Welcome to my personal website. I hope you enjoy your stay, and there's even a chance that you might if you're using the correct browser.
+        </p>
       </div>
     )
   }

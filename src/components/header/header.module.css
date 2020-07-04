@@ -1,3 +1,19 @@
 .header {
   text-align: center;
 }
+
+.headerLink {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+@media screen and (max-width: 540px) {
+  .headerLink {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 541px) {
+  .headerLink {
+    font-size: 3vw;
+  }
+}

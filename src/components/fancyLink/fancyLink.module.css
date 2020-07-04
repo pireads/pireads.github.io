@@ -1,39 +1,25 @@
 @keyframes link {
   from {
-    font-variation-settings: 'TRMG'0;
+    font-variation-settings: "wght" 50, "wdth" 450, "opsz" 200;
   }
-
   to {
-    font-variation-settings: 'TRMG'1000;
+    font-variation-settings: "wght" 100, "wdth" 450, "opsz" 200;
   }
 }
 
 @keyframes linkback {
   from {
-    font-variation-settings: 'TRMG'1000;
+    font-variation-settings: "wght" 100, "wdth" 450, "opsz" 200;
   }
-
   to {
-    font-variation-settings: 'TRMG'0;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .link {
-    font-size: 6vw;
-  }
-}
-@media screen and (min-width: 541px) {
-  .link {
-    font-size: 3vw;
+    font-variation-settings: "wght" 50, "wdth" 450, "opsz" 200;
   }
 }
 
 .link {
-  padding-right: 1vw;
-  padding-left: 1vw;
   color: #83C8F5;
-  font-family: 'Decovar';
+  font-family: 'Handjet';
+  font-variation-settings: "wght" 50, "wdth" 450, "opsz" 200;
   margin: 0vw;
   padding-top: 0vw;
   animation-duration: 0.2s;

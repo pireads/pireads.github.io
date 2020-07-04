@@ -13,6 +13,7 @@ export default class Resume extends React.Component {
       <div>
         <Job
           name="avimoskoff.me"
+          address="/"
           time="Summer 2020"
           icon={faProjectDiagram}
           bullets={["Built a personal website."]}
@@ -20,6 +21,7 @@ export default class Resume extends React.Component {
         <hr className={resumeStyles.line} />
         <Job
           name="projecteuler.net"
+          address="https://projecteuler.net/"
           time="2016-present"
           icon={faCalculator}
           bullets={[

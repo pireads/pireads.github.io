@@ -1,12 +1,10 @@
 /*https://fontawesome.com/how-to-use/on-the-web/other-topics/server-side-rendering*/
 @import url('https://use.fontawesome.com/releases/v5.13.1/css/svg-with-js.css');
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
-
 .header {
-  font-family: "Decovar";
+  font-family: "Handjet";
   font-size: 30px;
-  font-variation-settings: "TRMD" 1000;
+  font-variation-settings: "wght" 65, "wdth" 450, "opsz" 200;
 }
 
 .icon {
@@ -36,8 +34,7 @@
 }
 
 .bullets {
-  font-family: "Josefin Sans";
-  font-size: 30px;
+  padding-top: 1vw;
   padding-bottom: 1vw;
   padding-left: 1vw;
   margin: 0;

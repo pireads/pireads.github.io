@@ -14,6 +14,7 @@ export default class Resume extends React.Component {
       <div>
         <Job
           name="Axosoft"
+          address="https://www.gitkraken.com/"
           time="Summer 2020"
           position="Intern"
           location="Scottsdale, Arizona"
@@ -26,6 +27,7 @@ export default class Resume extends React.Component {
         <hr className={resumeStyles.line} />
         <Job
           name="ASU Parallel Systems and Computing Labratory"
+          address="https://ren-fengbo.lab.asu.edu/"
           time="Spring 2020"
           position="Research Assistant"
           location="Tempe, Arizona"
@@ -37,6 +39,7 @@ export default class Resume extends React.Component {
         <hr className={resumeStyles.line} />
         <Job
           name="Jacobs Technology"
+          address="https://www.atec.army.mil/epg/"
           time="Summer 2019"
           position="Intern"
           location="Fort Huachuca, Arizona"
@@ -49,6 +52,7 @@ export default class Resume extends React.Component {
         <hr className={resumeStyles.line} />
         <Job
           name="Left Hand Robotics"
+          address="https://lefthandrobotics.com/"
           time="2017-2018"
           position="Intern"
           location="Longmont, Colorado"

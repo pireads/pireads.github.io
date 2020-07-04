@@ -23,7 +23,7 @@ export default class FancyLink extends React.Component {
       <a
         key={key}
         onMouseLeave={this.mouseLeft}
-        className={`${fancyLinkStyles.link} ${
+        className={`${this.props.className} ${fancyLinkStyles.link} ${
           hasHovered ? fancyLinkStyles.linkBack : ""
         }`}
         href={this.props.address}

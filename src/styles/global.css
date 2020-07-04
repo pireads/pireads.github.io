@@ -1,10 +1,14 @@
 @font-face {
-  font-family: "Decovar";
-  src: url(./decovar/DecovarAlpha-VF.ttf) format("truetype");
+  font-family: "Handjet";
+  src: url(./Handjet/Handjet-VF.woff2);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 
 body {
   background-color: #000;
+  font-family: "Josefin Sans";
+  font-size: 30px;
   color: #fff;
   margin: 0vw;
 }

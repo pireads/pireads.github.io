@@ -11,9 +11,9 @@ export default class Header extends React.Component {
     return (
       <div className={header.header}>
         <MyName />
-        <FancyLink address="/" text="home" />
-        <FancyLink address="/resume" text="resume" />
-        <FancyLink address="/transcript" text="transcript" />
+        <FancyLink className={header.headerLink} address="/" text="HOME" />
+        <FancyLink className={header.headerLink} address="/resume" text="RESUME" />
+        <FancyLink className={header.headerLink} address="/transcript" text="TRANSCRIPT" />
         <br />
         <br />
       </div>

@@ -11,12 +11,11 @@ import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
 import Projects from "./Projects";
-import resumeStyles from './resumeStyles.module.css'
 
 export default class Resume extends React.Component {
   render() {
     return (
-      <div className={resumeStyles.container}>
+      <div className="container">
         <ResumeHeader title="EDUCATION" icon={faGraduationCap} />
         <Education />
         <ResumeHeader title="SKILLS" icon={faChessKnight} />

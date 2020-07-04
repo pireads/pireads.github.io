@@ -7,6 +7,7 @@ export default class ResumeHeader extends React.Component {
   render() {
     return (
       <div className={resumeStyles.header}>
+      <hr className={resumeStyles.line} />
         <h2>
           <FontAwesomeIcon
             icon={this.props.icon}

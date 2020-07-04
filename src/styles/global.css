@@ -12,3 +12,9 @@ body {
   color: #fff;
   margin: 0vw;
 }
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

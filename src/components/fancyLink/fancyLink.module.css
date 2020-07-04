@@ -3,13 +3,13 @@
     font-variation-settings: "wght" 50, "wdth" 450, "opsz" 200;
   }
   to {
-    font-variation-settings: "wght" 100, "wdth" 450, "opsz" 200;
+    font-variation-settings: "wght" 80, "wdth" 450, "opsz" 200;
   }
 }
 
 @keyframes linkback {
   from {
-    font-variation-settings: "wght" 100, "wdth" 450, "opsz" 200;
+    font-variation-settings: "wght" 80, "wdth" 450, "opsz" 200;
   }
   to {
     font-variation-settings: "wght" 50, "wdth" 450, "opsz" 200;

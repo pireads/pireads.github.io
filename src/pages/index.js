@@ -7,7 +7,7 @@ export default class Index extends React.Component {
       <div>
         <Header/>
         <p>
-        Welcome to my personal website. I hope you enjoy your stay, and there's even a chance that you might if you're using a proper browser.
+        Welcome to my personal website. I hope you enjoy your stay, and there's a chance that you might if you're using a proper browser.
         </p>
       </div>
     )

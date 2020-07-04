@@ -3,7 +3,6 @@
 
 .header {
   font-family: "Handjet";
-  font-size: 30px;
   font-variation-settings: "wght" 65, "wdth" 450, "opsz" 200;
 }
 
@@ -12,14 +11,16 @@
 }
 
 .smallIcon {
-  font-size: 15px;
   padding-right: 1vw;
-  padding-bottom: 5px;
+  vertical-align: inherit;
+  /* float: right; */
+  /* text-align: right; */
+  padding-left: 50%;
+  padding-bottom: 0.25em;
 }
 
 .columns {
   font-family: "Josefin Sans";
-  font-size: 30px;
   display: grid;
   padding-top: 1vw;
   margin: 0;
@@ -33,6 +34,11 @@
   margin: 0;
 }
 
+.bulletEntry {
+  display: grid;
+  grid-template-columns: 5% 95%;
+}
+
 .bullets {
   padding-top: 1vw;
   padding-bottom: 1vw;
@@ -40,14 +46,45 @@
   margin: 0;
 }
 
+
 @media screen and (max-width: 800px) {
   .skillColumns {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .bullets {
+    font-size: 20px;
+  }
+  .columns {
+    font-size: 20px;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .smallIcon {
+    font-size: 10px;
+  }
+  .bulletText {
+    padding-left: 5%;
   }
 }
 @media screen and (min-width: 801px) {
   .skillColumns {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .bullets {
+    font-size: 30px;
+  }
+  .columns {
+    font-size: 30px;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .smallIcon {
+    font-size: 15px;
+  }
+  .bulletText {
+    padding-left: 1%;
   }
 }
 

@@ -6,12 +6,14 @@ import resumeStyles from "./resumeStyles.module.css";
 export default class Resume extends React.Component {
   render() {
     return (
-      <p className={resumeStyles.entry}>
-        <FontAwesomeIcon
-          icon={this.props.icon}
-          className={`${resumeStyles.smallIcon} fa-fw`}
-        />
-        {this.props.text}
+      <p className={`${resumeStyles.entry} ${resumeStyles.bulletEntry}`}>
+        <div>
+          <FontAwesomeIcon
+            icon={this.props.icon}
+            className={`${resumeStyles.smallIcon} fa-fw`}
+          />
+        </div>
+        <div className={resumeStyles.bulletText}>{this.props.text}</div>
       </p>
     );
   }

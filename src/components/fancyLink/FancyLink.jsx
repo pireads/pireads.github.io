@@ -1,22 +1,22 @@
-import React from "react"
+import React from "react";
 
-import fancyLinkStyles from "./fancyLink.module.css"
+import fancyLinkStyles from "./fancyLink.module.css";
 
 export default class FancyLink extends React.Component {
   state = {
     hasHovered: false,
     key: Math.random(),
-  }
+  };
 
   mouseLeft = () => {
     this.setState(() => ({
       hasHovered: true,
       key: Math.random(),
-    }))
-  }
+    }));
+  };
 
   render() {
-    const { hasHovered, key } = this.state
+    const { hasHovered, key } = this.state;
 
     /* eslint-disable-next-line jsx-a11y/no-static-element-interactions */
     return (
@@ -30,6 +30,6 @@ export default class FancyLink extends React.Component {
       >
         {this.props.text}
       </a>
-    )
+    );
   }
 }

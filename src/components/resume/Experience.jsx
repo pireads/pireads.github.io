@@ -6,7 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import Job from "./Job";
-import resumeStyles from './resumeStyles.module.css'
+import resumeStyles from "./resumeStyles.module.css";
 
 export default class Resume extends React.Component {
   render() {

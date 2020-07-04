@@ -1,6 +1,6 @@
-import React from "react"
-import Header from "../components/header/Header"
-import ResumeComponent from "../components/resume/ResumeComponent"
+import React from "react";
+import Header from "../components/header/Header";
+import ResumeComponent from "../components/resume/ResumeComponent";
 
 export default class Resume extends React.Component {
   render() {
@@ -9,6 +9,6 @@ export default class Resume extends React.Component {
         <Header />
         <ResumeComponent />
       </div>
-    )
+    );
   }
 }

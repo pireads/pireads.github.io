@@ -19,7 +19,7 @@
 }
 
 .name {
-  font-family: 'Handjet';
+  font-family: "Handjet";
   animation-name: head;
   animation-duration: 2s;
   animation-fill-mode: forwards;

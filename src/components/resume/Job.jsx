@@ -2,7 +2,7 @@ import React from "react";
 
 import resumeStyles from "./resumeStyles.module.css";
 import Bullet from "./Bullet";
-import FancyLink from "../fancyLink/FancyLink"
+import FancyLink from "../fancyLink/FancyLink";
 
 export default class Resume extends React.Component {
   render() {
@@ -12,11 +12,9 @@ export default class Resume extends React.Component {
 
     return (
       <div>
-        <div
-          className={`${resumeStyles.columns} ${resumeStyles.twoColumns}`}
-        >
+        <div className={`${resumeStyles.columns} ${resumeStyles.twoColumns}`}>
           <p className={resumeStyles.entry}>
-            <FancyLink address={this.props.address} text={this.props.name}/>
+            <FancyLink address={this.props.address} text={this.props.name} />
           </p>
           <p className={resumeStyles.entry}>{this.props.time}</p>
           <p className={resumeStyles.entry}>{this.props.position}</p>

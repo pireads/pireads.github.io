@@ -1,0 +1,195 @@
+digraph {
+graph [bgcolor="#000000" fontname="Josefin Sans;Sans-Serif"]
+node [fontname="Josefin Sans;Sans-Serif" shape=box style=filled]
+edge [color="#ecf0f1" fontname="Josefin Sans;Sans-Serif"]
+subgraph cluster {
+graph [bgcolor="#2c3e50" fontcolor="#ecf0f1" fontname="Josefin Sans;Sans-Serif" label="Semester Key"]
+node [style=filled]
+edge [color="#2c3e50"]
+0 [color="#bdc3c7"]
+1 [color="#c0392b"]
+0 -> 1
+2 [color="#d35400"]
+1 -> 2
+3 [color="#f39c12"]
+2 -> 3
+4 [color="#16a085"]
+3 -> 4
+5 [color="#27ae60"]
+4 -> 5
+6 [color="#2980b9"]
+5 -> 6
+7 [color="#8e44ad"]
+6 -> 7
+8 [color="#7f8c8d"]
+7 -> 8
+}
+MAT270 [label="MAT270
+Calculus w/ Analytic Geometry I
+AP" fillcolor="#bdc3c7"]
+MAT271 [label="MAT271
+Calculus w/ Analytic Geometry II
+AP" fillcolor="#bdc3c7"]
+MAT270 -> MAT271
+MAT267 [label="MAT267
+Calculus for Engineers III
+TC" fillcolor="#bdc3c7"]
+MAT271 -> MAT267
+CSE110 [label="CSE110
+Principles of Programming
+AP" fillcolor="#bdc3c7"]
+CSE205 [label="CSE205
+Object-Oriented Program & Data
+A+" fillcolor="#c0392b"]
+CSE110 -> CSE205
+FSE100 [label="FSE100
+Introduction to Engineering
+A" fillcolor="#c0392b"]
+IEE380 [label="IEE380
+Prob & Stats Engr Prob Solving
+A" fillcolor="#c0392b"]
+MAT271 -> IEE380
+CSE120 [label="CSE120
+Digital Design Fundamentals
+A+" fillcolor="#d35400"]
+CSE240 [label="CSE240
+Intro to Programming Languages
+A+" fillcolor="#d35400"]
+CSE205 -> CSE240
+MAT243 [label="MAT243
+Discrete Math Structures
+A+" fillcolor="#d35400"]
+MAT270 -> MAT243
+PHY121 [label="PHY121
+Univ Physics I: Mechanics
+A+" fillcolor="#d35400"]
+MAT271 -> PHY121
+PHY122 [label="PHY122
+Univ Physics Lab I
+A-" fillcolor="#d35400"]
+PHY121 -> PHY122
+CSE230 [label="CSE230
+Computer Org/Assemb Lang Prog
+A+" fillcolor="#f39c12"]
+CSE110 -> CSE230
+CSE120 -> CSE230
+CSE310 [label="CSE310
+Data Structures and Algorithms
+A+" fillcolor="#f39c12"]
+CSE240 -> CSE310
+MAT243 -> CSE310
+MAT343 [label="MAT343
+Applied Linear Algebra
+A+" fillcolor="#f39c12"]
+MAT271 -> MAT343
+CSE340 [label="CSE340
+Principles of Programming Lang
+A" fillcolor="#16a085"]
+CSE310 -> CSE340
+CSE230 -> CSE340
+CSE365 [label="CSE365
+Information Assurance
+A+" fillcolor="#16a085"]
+CSE240 -> CSE365
+MAT300 [label="MAT300
+Mathematical Structures
+B" fillcolor="#16a085"]
+MAT270 -> MAT300
+PHY131 [label="PHY131
+University Physics II: Elctrc/Magnet
+A" fillcolor="#16a085"]
+PHY121 -> PHY131
+MAT267 -> PHY131
+PHY132 [label="PHY132
+University Physics Lab II
+A-" fillcolor="#16a085"]
+PHY131 -> PHY132
+MAT275 [label="MAT275
+Modern Differential Equations
+" fillcolor="#27ae60"]
+MAT271 -> MAT275
+MAT371 [label="MAT371
+Advanced Calculus I
+" fillcolor="#27ae60"]
+MAT267 -> MAT371
+MAT300 -> MAT371
+CSE360 [label="CSE360
+Intro to Software Engineering
+" fillcolor="#27ae60"]
+CSE240 -> CSE360
+CHM113 [label="CHM113
+General Chemistry I
+" fillcolor="#27ae60"]
+MAT270 -> CHM113
+CSE355 [label="CSE355
+Intro Theoretical Computer Sci
+" fillcolor="#27ae60"]
+CSE310 -> CSE355
+STP421 [label="STP421
+Probability
+" fillcolor="#2980b9"]
+MAT267 -> STP421
+MAT416 [label="MAT416
+Graph Theory
+" fillcolor="#2980b9"]
+MAT300 -> MAT416
+MAT343 -> MAT416
+CSE450 [label="CSE450
+Design&Analysis of Algorithms
+" fillcolor="#2980b9"]
+CSE310 -> CSE450
+CSE412 [label="CSE412
+Database Management
+" fillcolor="#2980b9"]
+CSE310 -> CSE412
+CSE330 [label="CSE330
+Operating Systems
+" fillcolor="#2980b9"]
+CSE230 -> CSE330
+CSE310 -> CSE330
+CSE301 [label="CSE301
+Computing Ethics
+" fillcolor="#2980b9"]
+FSE100 -> CSE301
+CSE205 -> CSE301
+CSE485 [label="CSE485
+Computer Sci Capstone Proj I
+" fillcolor="#8e44ad"]
+CSE330 -> CSE485
+CSE340 -> CSE485
+CSE355 -> CSE485
+CSE360 -> CSE485
+MAT447 [label="MAT447
+Cryptography I
+" fillcolor="#8e44ad"]
+CSE205 -> MAT447
+MAT300 -> MAT447
+MAT343 -> MAT447
+CSE466 [label="CSE466
+Computer Systems Security
+" fillcolor="#8e44ad"]
+CSE310 -> CSE466
+CSE365 -> CSE466
+CSE477 [label="CSE477
+Intro Computer-Aided Geom Desg
+" fillcolor="#8e44ad"]
+MAT343 -> CSE477
+CSE471 [label="CSE471
+Intro Artificial Intelligence
+" fillcolor="#7f8c8d"]
+CSE310 -> CSE471
+CSE486 [label="CSE486
+Computer Sci Capstone Proj II
+" fillcolor="#7f8c8d"]
+CSE485 -> CSE486
+MAT448 [label="MAT448
+Cryptography II
+" fillcolor="#7f8c8d"]
+MAT447 -> MAT448
+STP425 [label="STP425
+Stochastic Processes
+" fillcolor="#7f8c8d"]
+MAT343 -> STP425
+MAT371 -> STP425
+STP421 -> STP425
+}

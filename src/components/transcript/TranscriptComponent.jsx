@@ -29,7 +29,7 @@ export default class TranscriptComponent extends React.Component {
     return `digraph {
     graph [bgcolor="#000000" fontname="Josefin Sans;Sans-Serif"]
     node [fontname="Josefin Sans;Sans-Serif" shape=box style=filled]
-    edge [color="#ecf0f1" fontname="Josefin Sans;Sans-Serif"]
+    edge [color="#ffffff" fontname="Josefin Sans;Sans-Serif"]
     ${classes}
     }`;
   }
@@ -62,7 +62,7 @@ export default class TranscriptComponent extends React.Component {
     }
     this.isTransitioning = true;
     this.currentSemester++;
-    this.currentSemester %= 8;
+    this.currentSemester %= 9;
     const node = this.node;
     const viz = graphviz(node).tweenShapes(false).attributer(this.attributer);
     const dot = this.getClassesLessThanSemester(this.currentSemester);

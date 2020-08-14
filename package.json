@@ -30,8 +30,7 @@
   },
   "devDependencies": {
     "gh-pages": "^3.0.0",
-    "prettier": "2.0.5",
-    "typescript": "^3.9.5"
+    "prettier": "2.0.5"
   },
   "repository": {
     "type": "git",

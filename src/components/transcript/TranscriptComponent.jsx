@@ -27,9 +27,9 @@ export default class TranscriptComponent extends React.Component {
     );
 
     return `digraph {
-    graph [bgcolor="#000000" fontname="Josefin Sans;Sans-Serif"]
-    node [fontname="Josefin Sans;Sans-Serif" shape=box style=filled]
-    edge [color="#ffffff" fontname="Josefin Sans;Sans-Serif"]
+    graph [bgcolor="#000000" fontname="Jura;Sans-Serif"]
+    node [fontname="Jura;Sans-Serif" shape=box style=filled]
+    edge [color="#ffffff" fontname="Jura;Sans-Serif"]
     ${classes}
     }`;
   }

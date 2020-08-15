@@ -20,7 +20,8 @@ export default class Resume extends React.Component {
           location="Scottsdale, Arizona"
           icon={faGitkraken}
           bullets={[
-            "Built an integration for Trello within the Gitkraken Git GUI.",
+            "Implemented arbritrary selection of default branches when initializing repositories in the GitKraken Git GUI.",
+            "Implemented various features in the GitKraken Git GUI.",
             "Fixed various bugs within the Gitkraken Git GUI.",
           ]}
         />

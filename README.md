@@ -1,3 +1,3 @@
-# Avi Moskoff's Homepage.
+# Source code for [my personal website](https://avimoskoff.me).
 
-Source code is on the [source](https://github.com/pireads/pireads.github.io/tree/source) branch.
+Actual site is served via Github Pages from the `docs` directory.

@@ -18,10 +18,10 @@ export default class TranscriptComponent extends React.Component {
           ? `${dot || ""}
           ${course.code} [label="${course.code}
           ${course.name}"]${course.dependencies.reduce(
-              (deps, dep) => `${deps}
+            (deps, dep) => `${deps}
           ${dep} -> ${course.code}`,
-              ""
-            )}`
+            ""
+          )}`
           : dot,
       ""
     );

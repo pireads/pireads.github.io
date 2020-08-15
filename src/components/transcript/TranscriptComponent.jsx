@@ -16,10 +16,10 @@ export default class TranscriptComponent extends React.Component {
       (dot, course) =>
         course.semester <= semester
           ? `${dot || ""}
-          ${course.code} [label="${course.code}
-          ${course.name}"]${course.dependencies.reduce(
+          ${course.code} [label="${course.code}\\n${course.name}"]${
+          course.dependencies.reduce(
             (deps, dep) => `${deps}
-          ${dep} -> ${course.code}`,
+            ${dep} -> ${course.code}`,
             ""
           )}`
           : dot,
@@ -28,7 +28,7 @@ export default class TranscriptComponent extends React.Component {
 
     return `digraph {
     graph [bgcolor="#000000" fontname="Jura;Sans-Serif"]
-    node [fontname="Jura;Sans-Serif" shape=box style=filled]
+    node [fillcolor="#ffffff" fontname="Jura;Sans-Serif" margin="0.2,0.1" shape=box style=filled]
     edge [color="#ffffff" fontname="Jura;Sans-Serif"]
     ${classes}
     }`;
@@ -85,7 +85,7 @@ export default class TranscriptComponent extends React.Component {
         <button onClick={this.incrementSemesters.bind(this)}>
           Next semester
         </button>
-        <svg
+        <div
           ref={(node) => (this.node = node)}
           className={transcriptStyle.graph}
         />

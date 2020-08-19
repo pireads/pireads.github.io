@@ -17,7 +17,8 @@
 }
 
 .link {
-  color: #83c8f5;
+  /* color: #83c8f5; */
+  color: #179287;
   font-family: "Handjet";
   font-variation-settings: "wght" 50, "wdth" 450, "opsz" 200;
   margin: 0vw;

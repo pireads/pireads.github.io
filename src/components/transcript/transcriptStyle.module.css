@@ -3,3 +3,8 @@
   width: 100vw;
   text-align: center;
 }
+
+.slider {
+  margin: auto;
+  width: 75vw;
+}

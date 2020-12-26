@@ -16,7 +16,8 @@
       "#7f8c8d"
     ]
   },
-  "classes": [{
+  "classes": [
+    {
       "code": "MAT270",
       "name": "Calculus w/ Analytic Geometry I",
       "grade": "AP",
@@ -206,11 +207,11 @@
       "dependencies": ["MAT300", "MAT343"]
     },
     {
-      "code": "CSE450",
-      "name": "Design&Analysis of Algorithms",
+      "code": "CSE470",
+      "name": "Computer Graphics",
       "grade": "",
       "semester": 6,
-      "dependencies": ["CSE310"]
+      "dependencies": ["CSE310", "MAT343"]
     },
     {
       "code": "CSE412",
@@ -230,7 +231,7 @@
       "code": "CSE301",
       "name": "Computing Ethics",
       "grade": "",
-      "semester": 6,
+      "semester": 7,
       "dependencies": ["FSE100", "CSE205"]
     },
     {
@@ -241,18 +242,11 @@
       "dependencies": ["CSE330", "CSE340", "CSE355", "CSE360"]
     },
     {
-      "code": "MAT447",
-      "name": "Cryptography I",
+      "code": "MAT410",
+      "name": "Intro to General Topology",
       "grade": "",
       "semester": 7,
-      "dependencies": ["CSE205", "MAT300", "MAT343"]
-    },
-    {
-      "code": "CSE466",
-      "name": "Computer Systems Security",
-      "grade": "",
-      "semester": 7,
-      "dependencies": ["CSE310", "CSE365"]
+      "dependencies": ["MAT300", "MAT371"]
     },
     {
       "code": "CSE477",
@@ -260,6 +254,13 @@
       "grade": "",
       "semester": 7,
       "dependencies": ["MAT343"]
+    },
+    {
+      "code": "CSE494",
+      "name": "Topic: Algorithms in Computational Biology",
+      "grade": "",
+      "semester": 7,
+      "dependencies": ["CSE310", "MAT243"]
     },
     {
       "code": "CSE471",
@@ -276,11 +277,11 @@
       "dependencies": ["CSE485"]
     },
     {
-      "code": "MAT448",
-      "name": "Cryptography II",
+      "code": "MAT445",
+      "name": "Theory of Numbers",
       "grade": "",
       "semester": 8,
-      "dependencies": ["MAT447"]
+      "dependencies": ["MAT300", "MAT343"]
     },
     {
       "code": "STP425",

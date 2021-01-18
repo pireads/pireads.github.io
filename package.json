@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "acorn": "^6.4.1",
-    "gatsby": "^2.24.51",
+    "gatsby": "^2.30.3",
     "gatsby-plugin-manifest": "^2.4.25",
     "prettier": "2.1.1"
   },

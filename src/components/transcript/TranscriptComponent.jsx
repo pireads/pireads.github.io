@@ -35,6 +35,7 @@ export default class TranscriptComponent extends React.Component {
     );
 
     return `digraph {
+    rankdir=LR;
     graph [bgcolor="#000000" fontname="Jura;Sans-Serif"]
     node [fillcolor="#ffffff" fontname="Jura;Sans-Serif" margin="0.2,0.1" shape=box style=filled]
     edge [color="#ffffff" fontname="Jura;Sans-Serif"]

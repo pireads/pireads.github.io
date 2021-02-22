@@ -200,13 +200,6 @@
       "dependencies": ["MAT267"]
     },
     {
-      "code": "MAT416",
-      "name": "Graph Theory",
-      "grade": "",
-      "semester": 6,
-      "dependencies": ["MAT300", "MAT343"]
-    },
-    {
       "code": "CSE470",
       "name": "Computer Graphics",
       "grade": "",
@@ -228,18 +221,18 @@
       "dependencies": ["CSE230", "CSE310"]
     },
     {
-      "code": "CSE301",
-      "name": "Computing Ethics",
-      "grade": "",
-      "semester": 7,
-      "dependencies": ["FSE100", "CSE205"]
-    },
-    {
       "code": "CSE485",
       "name": "Computer Sci Capstone Proj I",
       "grade": "",
       "semester": 7,
       "dependencies": ["CSE330", "CSE340", "CSE355", "CSE360"]
+    },
+    {
+      "code": "MAT415",
+      "name": "Introduction to Combinatorics",
+      "grade": "",
+      "semester": 7,
+      "dependencies": ["MAT300", "MAT343"]
     },
     {
       "code": "MAT410",
@@ -257,10 +250,10 @@
     },
     {
       "code": "CSE494",
-      "name": "Topic: Algorithms in Computational Biology",
+      "name": "Topic: Foundations of Data Visualization",
       "grade": "",
       "semester": 7,
-      "dependencies": ["CSE310", "MAT243"]
+      "dependencies": ["CSE310"]
     },
     {
       "code": "CSE471",
@@ -275,6 +268,13 @@
       "grade": "",
       "semester": 8,
       "dependencies": ["CSE485"]
+    },
+    {
+      "code": "CSE301",
+      "name": "Computing Ethics",
+      "grade": "",
+      "semester": 8,
+      "dependencies": ["FSE100", "CSE205"]
     },
     {
       "code": "MAT445",

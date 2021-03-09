@@ -17,7 +17,7 @@
     "react-refresh": "^0.8.3"
   },
   "devDependencies": {
-    "acorn": "^6.4.1",
+    "acorn": "^8.1.0",
     "gatsby": "^2.24.51",
     "gatsby-plugin-manifest": "^2.4.25",
     "prettier": "2.1.1"

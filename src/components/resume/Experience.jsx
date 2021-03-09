@@ -7,6 +7,7 @@ import {
 
 import Job from "./Job";
 import resumeStyles from "./resumeStyles.module.css";
+import FancyLink from "../fancyLink/FancyLink";
 
 export default class Resume extends React.Component {
   render() {
@@ -34,6 +35,14 @@ export default class Resume extends React.Component {
           location="Tempe, Arizona"
           icon={faPython}
           bullets={[
+            <div>
+              Co-Authored a&nbsp;
+              <FancyLink
+                address="https://arxiv.org/abs/2103.00652"
+                text="paper"
+              />
+              .
+            </div>,
             "Ported compressive sensing algorithms to PyTorch for meta-analysis.",
           ]}
         />

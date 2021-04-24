@@ -29,14 +29,18 @@
       "name": "Calculus w/ Analytic Geometry II",
       "grade": "AP",
       "semester": 0,
-      "dependencies": ["MAT270"]
+      "dependencies": [
+        "MAT270"
+      ]
     },
     {
       "code": "MAT267",
       "name": "Calculus for Engineers III",
       "grade": "TC",
       "semester": 0,
-      "dependencies": ["MAT271"]
+      "dependencies": [
+        "MAT271"
+      ]
     },
     {
       "code": "CSE110",
@@ -50,7 +54,9 @@
       "name": "Object-Oriented Program & Data",
       "grade": "A+",
       "semester": 1,
-      "dependencies": ["CSE110"]
+      "dependencies": [
+        "CSE110"
+      ]
     },
     {
       "code": "FSE100",
@@ -64,7 +70,9 @@
       "name": "Prob & Stats Engr Prob Solving",
       "grade": "A",
       "semester": 1,
-      "dependencies": ["MAT271"]
+      "dependencies": [
+        "MAT271"
+      ]
     },
     {
       "code": "CSE120",
@@ -78,217 +86,295 @@
       "name": "Intro to Programming Languages",
       "grade": "A+",
       "semester": 2,
-      "dependencies": ["CSE205"]
+      "dependencies": [
+        "CSE205"
+      ]
     },
     {
       "code": "MAT243",
       "name": "Discrete Math Structures",
       "grade": "A+",
       "semester": 2,
-      "dependencies": ["MAT270"]
+      "dependencies": [
+        "MAT270"
+      ]
     },
     {
       "code": "PHY121",
       "name": "Univ Physics I: Mechanics",
       "grade": "A+",
       "semester": 2,
-      "dependencies": ["MAT271"]
+      "dependencies": [
+        "MAT271"
+      ]
     },
     {
       "code": "PHY122",
       "name": "Univ Physics Lab I",
       "grade": "A-",
       "semester": 2,
-      "dependencies": ["PHY121"]
+      "dependencies": [
+        "PHY121"
+      ]
     },
     {
       "code": "CSE230",
       "name": "Computer Org/Assemb Lang Prog",
       "grade": "A+",
       "semester": 3,
-      "dependencies": ["CSE110", "CSE120"]
+      "dependencies": [
+        "CSE110",
+        "CSE120"
+      ]
     },
     {
       "code": "CSE310",
       "name": "Data Structures and Algorithms",
       "grade": "A+",
       "semester": 3,
-      "dependencies": ["CSE240", "MAT243"]
+      "dependencies": [
+        "CSE240",
+        "MAT243"
+      ]
     },
     {
       "code": "MAT343",
       "name": "Applied Linear Algebra",
       "grade": "A+",
       "semester": 3,
-      "dependencies": ["MAT271"]
+      "dependencies": [
+        "MAT271"
+      ]
     },
     {
       "code": "CSE340",
       "name": "Principles of Programming Lang",
       "grade": "A",
       "semester": 4,
-      "dependencies": ["CSE310", "CSE230"]
+      "dependencies": [
+        "CSE310",
+        "CSE230"
+      ]
     },
     {
       "code": "CSE365",
       "name": "Information Assurance",
       "grade": "A+",
       "semester": 4,
-      "dependencies": ["CSE240"]
+      "dependencies": [
+        "CSE240"
+      ]
     },
     {
       "code": "MAT300",
       "name": "Mathematical Structures",
       "grade": "B",
       "semester": 4,
-      "dependencies": ["MAT270"]
+      "dependencies": [
+        "MAT270"
+      ]
     },
     {
       "code": "PHY131",
       "name": "University Physics II: Elctrc/Magnet",
       "grade": "A",
       "semester": 4,
-      "dependencies": ["PHY121", "MAT267"]
+      "dependencies": [
+        "PHY121",
+        "MAT267"
+      ]
     },
     {
       "code": "PHY132",
       "name": "University Physics Lab II",
       "grade": "A-",
       "semester": 4,
-      "dependencies": ["PHY131"]
+      "dependencies": [
+        "PHY131"
+      ]
     },
     {
       "code": "MAT275",
       "name": "Modern Differential Equations",
       "grade": "",
       "semester": 5,
-      "dependencies": ["MAT271"]
+      "dependencies": [
+        "MAT271"
+      ]
     },
     {
       "code": "MAT371",
       "name": "Advanced Calculus I",
       "grade": "",
       "semester": 5,
-      "dependencies": ["MAT267", "MAT300"]
+      "dependencies": [
+        "MAT267",
+        "MAT300"
+      ]
     },
     {
       "code": "CSE360",
       "name": "Intro to Software Engineering",
       "grade": "",
       "semester": 5,
-      "dependencies": ["CSE240"]
+      "dependencies": [
+        "CSE240"
+      ]
     },
     {
       "code": "CHM113",
       "name": "General Chemistry I",
       "grade": "",
       "semester": 5,
-      "dependencies": ["MAT270"]
+      "dependencies": [
+        "MAT270"
+      ]
     },
     {
       "code": "CSE355",
       "name": "Intro Theoretical Computer Sci",
       "grade": "",
       "semester": 5,
-      "dependencies": ["CSE310"]
+      "dependencies": [
+        "CSE310"
+      ]
     },
     {
       "code": "STP421",
       "name": "Probability",
       "grade": "",
       "semester": 6,
-      "dependencies": ["MAT267"]
+      "dependencies": [
+        "MAT267"
+      ]
     },
     {
       "code": "CSE470",
       "name": "Computer Graphics",
       "grade": "",
       "semester": 6,
-      "dependencies": ["CSE310", "MAT343"]
+      "dependencies": [
+        "CSE310",
+        "MAT343"
+      ]
     },
     {
       "code": "CSE412",
       "name": "Database Management",
       "grade": "",
       "semester": 6,
-      "dependencies": ["CSE310"]
+      "dependencies": [
+        "CSE310"
+      ]
     },
     {
       "code": "CSE330",
       "name": "Operating Systems",
       "grade": "",
       "semester": 6,
-      "dependencies": ["CSE230", "CSE310"]
+      "dependencies": [
+        "CSE230",
+        "CSE310"
+      ]
     },
     {
       "code": "CSE485",
       "name": "Computer Sci Capstone Proj I",
       "grade": "",
       "semester": 7,
-      "dependencies": ["CSE330", "CSE340", "CSE355", "CSE360"]
+      "dependencies": [
+        "CSE330",
+        "CSE340",
+        "CSE355",
+        "CSE360"
+      ]
     },
     {
       "code": "MAT415",
       "name": "Introduction to Combinatorics",
       "grade": "",
       "semester": 7,
-      "dependencies": ["MAT300", "MAT343"]
+      "dependencies": [
+        "MAT300",
+        "MAT343"
+      ]
     },
     {
       "code": "MAT410",
       "name": "Intro to General Topology",
       "grade": "",
       "semester": 7,
-      "dependencies": ["MAT300", "MAT371"]
+      "dependencies": [
+        "MAT300",
+        "MAT371"
+      ]
     },
     {
       "code": "CSE477",
       "name": "Intro Computer-Aided Geom Desg",
       "grade": "",
       "semester": 7,
-      "dependencies": ["MAT343"]
+      "dependencies": [
+        "MAT343"
+      ]
     },
     {
       "code": "CSE494",
       "name": "Topic: Foundations of Data Visualization",
       "grade": "",
       "semester": 7,
-      "dependencies": ["CSE310"]
+      "dependencies": [
+        "CSE310"
+      ]
+    },
+    {
+      "code": "CSE301",
+      "name": "Computing Ethics",
+      "grade": "",
+      "semester": 7,
+      "dependencies": [
+        "FSE100",
+        "CSE205"
+      ]
     },
     {
       "code": "CSE471",
       "name": "Intro Artificial Intelligence",
       "grade": "",
       "semester": 8,
-      "dependencies": ["CSE310"]
+      "dependencies": [
+        "CSE310"
+      ]
     },
     {
       "code": "CSE486",
       "name": "Computer Sci Capstone Proj II",
       "grade": "",
       "semester": 8,
-      "dependencies": ["CSE485"]
-    },
-    {
-      "code": "CSE301",
-      "name": "Computing Ethics",
-      "grade": "",
-      "semester": 8,
-      "dependencies": ["FSE100", "CSE205"]
+      "dependencies": [
+        "CSE485"
+      ]
     },
     {
       "code": "MAT445",
       "name": "Theory of Numbers",
       "grade": "",
       "semester": 8,
-      "dependencies": ["MAT300", "MAT343"]
+      "dependencies": [
+        "MAT300",
+        "MAT343"
+      ]
     },
     {
       "code": "STP425",
       "name": "Stochastic Processes",
       "grade": "",
       "semester": 8,
-      "dependencies": ["MAT343", "MAT371", "STP421"]
+      "dependencies": [
+        "MAT343",
+        "MAT371",
+        "STP421"
+      ]
     }
   ]
 }
